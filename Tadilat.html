@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tadesso</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; /* Dikeyde yukarı hizalama için */
+    }
+
+    .div1 {
+      width: 350px;
+      height: auto;
+      color:black;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      border-radius: 20px;
+      opacity: 0.85;
+      padding: 20px;
+      position: absolute; /* Mutlak konumlandırma */
+      top: 0; /* En üstte */
+      left: 50%;
+      transform: translateX(-50%); /* Yatayda ortalamak için */
+    }
+    .div2{
+        width: 350px;
+      height: auto;
+      color:black;
+      background-color:white;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      border-radius: 20px;
+      opacity: 0.85;
+      padding: 20px;
+      position: absolute; /* Mutlak konumlandırma */
+      bottom: 0; /* En üstte */
+      left: 50%;
+      transform: translateX(-50%); /* Yatayda ortalamak için */
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.jpg" style="width:40%; height:auto; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); z-index:-1;">
+  
+  <div class="div1">
+    <h2 style="margin-top: 0;">Our website is temporarily under maintenance.</h2>
+    <p>We'll be back soon. Thank you for your understanding.</p>
+  </div>
+  <div class="div2">
+    <h2>Contacts</h2>
+    <p><a href ="mailto: info@tadesso.com">info@tadesso.com</a></p>
+    <p>+90 545 745 46 15 </p>
+  </div>
+</body>
+</html>
